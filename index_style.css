@@ -5,42 +5,87 @@
 }
 
 body{
-    background-color: #FACCFF;
+    /* background-color: #FACCFF; */
 }
 
 .nav-bar{
-    position: absolute;
     width: 100%;
     height: 310px;
-    /* background-color: #99CCFF; */
-    background-image: repeating-linear-gradient(135deg,white 1%,#99CCFF 2%);
-    margin-top: 25px;
-    z-index: 1;
+    background-color: #99CCFF;
+    /* background-image: url("D:/project/4thsemproject/projclass/portfolio/images/portfolio-navbar-bg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 2px solid #FACCFF; */
     display: grid;
-    grid-template-columns: auto auto;
-    border: 2px solid #FACCFF;
+    grid-template-columns: auto auto auto;
 }
 
-.usr-pfp{
 
-}
+tyo profile ko lagi 
 
-.nav-bar:after {
+/* .img-container{
     position: absolute;
-    content: '';
-    left: 0;
-    border-bottom: 50px solid transparent;
-    border-left: 50px solid #FACCFF;
-    z-index: -1;
+} */
+
+img{
+    position: relative;
 }
 
 .img-pfp{
     border-radius: 50%;
-    margin: 25px;
+    margin: 35px;
 }
 
 main{
     height: 100px;
-    /* width: auto; */
-    /* background-color: white; */
+    width: auto;
+    background-color: white;
 }
+
+
+.dot{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-image:linear-gradient(to right,#FACCFF,white);
+    border-radius: 50%;
+    display: inline-block;   
+}
+
+#d1{
+    height: 30px;
+    width: 30px;
+    top: 30px;
+    left:180px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#d2{
+    height: 90px;
+    width: 90px;
+    top: 50px;
+    left: 250px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#d3{
+    height: 50px;
+    width: 50px;
+    top: 200px;
+    left: 20px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#d4{
+    height: 30px;
+    width: 30px;
+    top: 230px;
+    left:250px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.usr-info>h1{
+}
+
+nav{}
